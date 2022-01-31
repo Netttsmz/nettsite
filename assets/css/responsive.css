@@ -1,0 +1,1194 @@
+/*---- Responsive Style ------*/
+@media screen and (max-width:992px) {
+    
+    .li-mobile-menu{
+        display: block !important;
+        background-color: #ff4d16 !important;
+        color:white !important;
+        text-align: center !important;
+        line-height: 15px !important;
+        height: 35px;
+    }
+    
+    .li-mobile-menu-partner{
+        display: block !important;
+        background-color: #ff4d16 !important;
+        color:white !important;
+        text-align: center !important;
+        line-height: 15px !important;
+        height: 35px;
+    }
+}
+
+
+ @media screen and (max-width:767px) {
+    /* .ml-auto{
+        display: none;
+    } */
+    /* .nav-link.icon{
+        display: none;
+    } */
+    .btns-left {
+        margin-left: auto !important;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .li-mobile-partner{
+        display: block !important;
+       
+    }
+    
+}
+
+@media screen and (max-width:767px){
+    .nav-icon-partner {
+        display: none ;
+    }
+}
+
+   /**************** 23.12.2021 ****************/
+ 
+   @media (min-width: 992px){
+    .col-lg-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 33% !important;
+    }
+    .col-lg-5 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 33% !important;
+    }
+    .login-cash {
+        margin-left: -21px;
+        margin-right: 29px;
+        margin-top: 34px;
+    }
+    .register-cash {
+        margin: 0;
+        margin-top: 10px;
+    }
+    /* .login-remit{
+        margin-left: -21px;
+        margin-right: 29px;
+        margin-top: 65px;
+
+    } */
+    .login-partner{
+        margin-left: -21px;
+        margin-right: 29px;
+        margin-top: 106px;
+
+    }
+   
+}
+
+/******************************** 29/12/2021 ***********************************/
+/******************************** REMITENCE PAGE RESPONSIVE STARTS*********************************/
+@media only screen and (min-width: 768px) and (max-width:1024px) {
+    .send-btn-agent {
+        background-color: rgb(9, 32, 103);
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-left: -63px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        /* margin-rig*/
+        /* font-size: 20px;*/
+        height: inherit;
+        padding: 0px;
+        font-weight: bold;
+    }
+    .select-agent-label-sent-con {
+        font-size: 10px;
+        margin-left: 5px;
+        color: #3773f4;
+        font-weight: bold;
+    }
+    .select-agent-label-recd {
+        font-size: 7px;
+        margin-left: 5px;
+        color: red;
+        font-weight: bold;
+    }
+    .select-agent-para-service {
+        font-size: 7px;
+        color: red;
+        font-weight: bold;
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+    .step1{
+        text-align: center;
+        margin-right: 8pc;
+    }
+    .select-side{
+        font-size: 13px;
+        text-align: center;
+        margin-right: 2pc;
+    }
+    .rates{
+        font-size: 11px;
+        text-align: center;
+        margin-right: 1.6pc;
+    }
+    .viewrates{
+        font-size: 11px;
+        color: red;
+        margin-right: 2.5pc;
+        text-align: center;
+    }
+    .clickhere{
+        height: 31px;
+        font-size: 10px;
+        margin-left: 0px;
+        width: 98%;
+    }
+    .agentbutton{
+        
+        margin-top: 0px;
+      
+    }
+    #back-to-top{
+        display: none;
+    }
+    .sendheading{
+        text-align: right;
+     font-size: 19px;
+     margin-right: 3px;
+     }
+     .rateheading{
+         font-size: 10px;
+         margin-right: 3px;
+         text-align: right;
+     }
+     .select-agent-label1{
+        font-size: 10px;
+        margin-left: 5px;
+    }
+    
+    .select-agent-para1{
+        font-size: 7px;
+        margin-top: -5px;
+        margin-left: 5px;
+        text-align: left;
+    }
+    .select-agent-label-base {
+        font-size: 8px;
+        margin-left: 5px;
+    }
+    .select-agent-input1{
+        
+        
+        width: 96%;
+    }
+    .select-agent-input-crrrate{
+        
+        width: 96%;
+    }
+    .select-agent-input-recd{
+      
+        width: 96%;
+    }
+    .select-agent-input-scharges{
+       
+        width: 96%;
+    }
+    .select-agent-input-basecrr{
+        
+        width: 96%; 
+    }
+    .select-agent-input-bscharge{
+      
+        width: 96%;
+    }
+    .select-agent-input-ttl{
+       
+        width: 96%;  
+    }
+    .select-agent-input-idr{
+        
+        width: 96%;  
+    }
+    .select-agent-input-country{
+        
+    width: 96%;
+    }
+    .select-agent-input-country-two {
+        width: 96%; 
+    }
+    .send-btn-agent{
+        background-color: rgb(9, 32, 103);
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-left: 11px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        /* margin-right: -2px; */
+        width: 93%;
+        font-size: 20px;
+        height: inherit;
+        padding: 0px;
+        font-weight: bold;
+    }
+    
+}
+@media only screen and (min-width: 320px) and (max-width:767px){
+    
+    .step1{
+        text-align: left;
+        margin-left: 6pc;
+    }
+    .select-side{
+        font-size: 11px;
+    margin-bottom: 11px;
+    }
+    .rates{
+        font-size: 9px;
+    margin-left: 14px;
+    margin-bottom: 9px;
+    }
+    .viewrates{
+        font-size: 9px;
+    color: red;
+    margin-left: 15px;
+    margin-bottom: 6px;
+    }
+    .clickhere{
+        height: 31px;
+        font-size: 10px;
+        margin-left: 0px;
+        width: 98%;
+    }
+    .agentbutton{
+        
+        margin-top: 0px;
+      
+    }
+    #back-to-top{
+        display: none;
+    }
+   
+    .sendheading{
+       text-align: right;
+    font-size: 19px;
+    margin-right: 3px;
+    }
+    .rateheading{
+        font-size: 10px;
+        margin-right: 3px;
+        text-align: right;
+    }
+    
+    
+    /*********************** label for form ********************************/
+    .select-agent-label1{
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .select-agent-para1{
+        font-size: 10px;
+        margin-top: -5px;
+        margin-left: 5px;
+        text-align: left;
+    }
+    
+    /*********************** label for form ********************************/
+    .select-agent-input1{
+        margin-left: 11px;
+       
+        width: 90%;
+    }
+    .select-agent-input-country{
+        margin-left: 11px;
+       
+    width: 90%;
+    }
+    .select-agent-input-country-two {
+        margin-left: 11px;
+        width: 90%;
+    }
+    .send-btn-agent{
+        background-color: rgb(9, 32, 103);
+        color: white;
+        border: none;
+        cursor: pointer;
+        margin-left: 11px;
+        margin-top: 10px;
+        margin-bottom: 12px;
+        /* margin-right: -2px; */
+        width: 93%;
+        font-size: 20px;
+        height: inherit;
+        padding: 0px;
+        font-weight: bold;
+    }
+    .select-agent-input-crrrate{
+        margin-left: 11px;
+        
+        width: 90%;
+    }
+    .select-agent-input-recd{
+        margin-left: 11px;
+       
+        width: 90%;
+    }
+    .select-agent-input-scharges{
+        margin-left: 11px;
+       
+        width: 90%;  
+    }
+    .select-agent-input-basecrr{
+        margin-left: 11px;
+       
+        width: 90%;;  
+    }
+    .select-agent-input-bscharge{
+        margin-left: 11px;
+       
+        width: 90%;
+    }
+    .select-agent-input-ttl{
+        margin-left: 11px;
+        
+        width: 90%;  
+    }
+    .select-agent-input-idr{
+        margin-left: 11px;
+       
+        width: 90%;  
+    }
+}
+/* @media only screen and (max-width: 991px){
+.horizontalMenu>.horizontalMenu-list> .list-sec-menu {
+
+}
+} */
+@media only screen and (min-width: 1025px) and (max-width:1279px){
+    .step1{
+        
+    text-align: center;
+    margin-left: 64px;
+
+    }
+    .select-side{
+        font-size: 13px;
+        text-align: end;
+        margin-bottom: 11px;
+    }
+    .rates{
+        font-size: 12px;
+        text-align: right;
+    }
+    .viewrates{
+        font-size: 12px;
+    text-align: end;
+    color: red;
+    }
+    .clickhere{
+        height: 141px;
+    font-size: 10px;
+    margin-left: 23pc;
+    width: 31%;
+    }
+    .agentbutton{
+        
+        margin-top: -7pc;
+      
+    }
+    .rateheading{
+        font-size: 10px;
+        margin-right: 3px;
+        text-align: right;
+    }
+    .select-agent-input-country{
+        
+    width: 95%;
+    }
+    .select-agent-input-country-two {
+        
+        width: 95%;
+    }
+    .select-agent-label-base {
+        font-size: 8.9px;
+        margin-left: 5px;
+    }
+    .select-agent-para1 {
+       font-size: 9px;
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+    .select-agent-label-recd {
+        font-size: 9px;
+        margin-left: 5px;
+        color: red;
+        font-weight: bold;
+    }
+    .select-agent-para-service {
+        font-size: 9px;
+        color: red;
+        font-weight: bold;
+        margin-top: -5px;
+        margin-left: 5px;
+    }
+}
+/******************************** REMITENCE PAGE RESPONSIVE ENDS*********************************/
+
+/******************************** REMITENCE SELECT AGENT PAGE RESPONSIVE STARTS*********************************/
+/********************************* 04/01/2022 ***************************/
+
+@media only screen and (min-width: 320px) and (max-width:767px){
+    .post-code{
+    font-size: 13px;
+    margin-top: 9px;
+    margin-left: 15px;
+    font-weight: bold;
+    }
+    .select-country {
+        padding-top: 11px;
+        padding-bottom: 11px;
+        width: 90%;
+        margin-left: 15px;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    .post-code-input-box {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        margin-left: 15px;
+        width: 90%;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    .search-btn {
+        border: 1px solid #d4d4d4;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        margin-left: 15px;
+        width: 90%;
+    }
+    .agent-code-input-box {
+        padding-top: 9px;
+        padding-bottom: 9px;
+        width: 90%;
+        margin-left: 15px;
+        border: none;
+       
+    }
+
+}
+ @media only screen and (min-width: 768px) and (max-width:992px) {
+    .your-country {
+        margin-left: 15px;
+        font-size: 12px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    /*.search-btn {
+        border: none;
+        font-weight: bold;
+        font-size: 11px;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 0px;
+    } */
+    .select-country {
+        padding-top: 11px;
+        padding-bottom: 11px;
+        
+        width: 140%;
+        margin-left: -15px;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    .post-code {
+        font-size: 13px;
+        margin-top: 9px;
+        margin-left: 17px;
+        font-weight: bold;
+    }
+    .post-code-input-box {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 100%;
+    border: none;
+    margin-left: -15px;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+.agent-code-selection {
+    margin-left: 15px;
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+} 
+@media only screen and (min-width: 993px) and (max-width:1024px) {
+    .your-country {
+        margin-left: 15px;
+        font-size: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .search-btn {
+        border: none;
+        font-weight: bold;
+        font-size: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 0px;
+    }
+    .select-country {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 90%;
+        margin-left: 15px;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    .post-code-input-box {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        width: 90%;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    .agent-code-input-box {
+        padding-top: 13px;
+        padding-bottom: 13px;
+        width: 90%;
+        border: none;
+        border-left: 1px solid red;
+        border-right: 1px solid red;
+    }
+    .post-code {
+        font-size: 11px;
+        margin-top: 11px;
+        font-weight: bold;
+    }
+    .agent-code-selection {
+        margin-left: 15px;
+        font-size: 10px;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    .horizontalMenu>.horizontalMenu-list>li>a {
+        display: block;
+        padding: 1rem 0.8rem 1rem;
+        text-decoration: none;
+        position: relative;
+        border-left: 1px solid rgba(67, 87, 133, .2);
+        margin: 0 3px !important;
+        font-size: 12px !important;
+        
+        font-weight: bold !important;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width:1279px) {
+    .your-country {
+        margin-left: 15px;
+        font-size: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .search-btn {
+        border: none;
+        font-weight: bold;
+        font-size: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+        margin-left: 0px;
+    }
+    .post-code {
+        font-size: 11px;
+        margin-top: 11px;
+        font-weight: bold;
+    }
+    .agent-code-selection {
+        margin-left: 15px;
+        font-size: 10px;
+        margin-top: 10px;
+        font-weight: 500;
+    }
+    .horizontalMenu>.horizontalMenu-list>li>a {
+        display: block;
+        padding: 1rem 0.8rem 1rem;
+        text-decoration: none;
+        position: relative;
+        border-left: 1px solid rgba(67, 87, 133, .2);
+        margin: 0 3px !important;
+        font-size: 12px !important;
+        
+        font-weight: bold !important;
+    }
+}
+/******************************** REMITENCE SELECT AGENT PAGE RESPONSIVE ENDS*********************************/
+
+/******************************** REMITENCE SEND COUNTRY PAGE RESPONSIVE STARTS*********************************/
+@media only screen and (min-width: 320px) and (max-width:767px){
+    .send-country-two {
+        font-size: 11px;
+        
+        margin-top: 9px;
+        margin-left: 15px;
+        font-weight: bold;
+    }
+    .send-select-country {
+        padding-top: 11px;
+        padding-bottom: 11px;
+        width: 90%;
+        margin-left: 15px;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    .send-select-country-two {
+        padding-top: 11px;
+        padding-bottom: 11px;
+        width: 90%;
+        margin-bottom: 15px;
+        margin-left: 15px;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    .send-country-two {
+        padding-top: 11px;
+        padding-bottom: 11px;
+        width: 90%;
+        margin-left: 15px;
+        border: none;
+       
+    }
+    .sending-btn {
+        margin-top: 10px;
+        float: right;
+        width: 100%;
+        font-size: 16px;
+        color: #051c4f;
+        font-weight: bold;
+        border: 1px solid #d4d4d4;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:992px){
+    .send-your-country {
+        margin-left: 15px;
+        font-size: 10px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .send-country-two {
+        font-size: 10px;
+        margin-left: 15px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .send-select-country {
+        padding-top: 11px;
+        padding-bottom: 11px;
+        width: 137%;
+        margin-left: -15px;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    
+
+.send-select-country-two {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 95%;
+    margin-left: 9px;
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+.sending-btn {
+    margin-top: 10px;
+    float: right;
+    width: 30%;
+    font-size: 16px;
+    color: #051c4f;
+    font-weight: bold;
+    border: 1px solid #d4d4d4;
+}
+
+}
+@media only screen and (min-width: 993px) and (max-width:1279px) {
+    .send-country-two {
+        font-size: 12px;
+        /* word-spacing: 3px; */
+        margin-top: 9px;
+        font-weight: bold;
+    }
+    .send-select-country {
+        padding-top: 17px;
+        padding-bottom: 17px;
+        width: 95%;
+        margin-left: 15px;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;
+    }
+    
+    .send-your-country {
+        margin-left: 15px;
+        font-size: 9px;
+        margin-top: 10px;
+        font-weight: bold;
+    }
+    .send-select-country-two {
+        padding-top: 17px;
+        padding-bottom: 17px;
+        width: 95%;
+        margin-left: 15px;
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        border-right: 1px solid #d4d4d4;;
+    }
+}
+
+
+
+
+/******************************** REMITENCE SEND COUNTRY PAGE RESPONSIVE ENDS*********************************/
+
+/***************************************PARTNER MARK UP RATE PAGE RESPONSIVE STARTS*****************************/
+@media only screen and (min-width: 320px) and (max-width:767px){
+    .partner-send-button{
+        margin-top: 10px;
+        float: right;
+        width: 100%;
+        font-size: 16px;
+        color: #051c4f;
+        font-weight: bold;
+        border: 1px solid #d4d4d4;   
+    }
+}
+@media only screen and (min-width: 768px) and (max-width:992){
+    .partner-send-button{
+        margin-top: 10px;
+        float: right;
+        width: 30%;
+        font-size: 16px;
+        color: #051c4f;
+        font-weight: bold;
+        border: 1px solid #d4d4d4;   
+    }
+}
+
+
+/***************************************PARTNER MARK UP RATE PAGE RESPONSIVE STARTS*****************************/
+
+/****************************************Register Login Form Responsive Starts********************************************/
+@media only screen and (min-width: 320px) and (max-width:767px){
+    .card-header-register {
+        padding: 0.4rem 1.5rem !important;
+        margin-bottom: -2px;
+        border-bottom: 1px solid #d0d0d0 !important;
+        margin-left: 9px;
+    }
+    .card-title-register {
+        font-size: 14px !important;
+        color: #f01c09 !important;
+        line-height: 1.2;
+        font-weight: bold !important;
+        text-transform: uppercase;
+    }
+    .card-header-register:first-child {
+        border-radius: 94% 6% 100% 0% / 0% 100% 0% 100% !important;
+        margin-right: 20%;
+        border: 1px solid #bdbdbd !important;
+    }
+    .label-client {
+        color: white;
+        background-color: red;
+        width: 100%;
+        height: 51px;
+        border-radius: 3px;
+        margin-bottom: 1px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .header-brand {
+        width: auto !important;
+        height: 48px !important;
+        margin-top: 8px;
+    }
+    .label-login {
+        color: white;
+        background-color: red;
+        width: 100%;
+        height: 51px;
+        border-radius: 3px;
+        margin-bottom: 1px;
+        text-align: center;
+        font-size: 17px;
+    }
+    .login-remit {
+        margin-top: 0;
+        margin-left: 9px;
+        margin-right: 7px;
+    }
+    .login-form-patron {
+        /* margin-top: 0; */
+        margin-left: 9px;
+        margin-right: 7px;
+    }
+    .login-form-partner {
+        margin-top: 0;
+        margin-left: 9px;
+        margin-right: 7px;
+    }
+    .card-header-login:first-child {
+        border-radius: 94% 6% 100% 0% / 0% 100% 0% 100% !important;
+        margin-right: 10%;
+        border: 1px solid #bdbdbd !important;
+    }
+    .button-forget {
+        color: white !important;
+        background-color: red;
+        border-color: red;
+        font-size: 14px;
+        width: 100%;
+        height: 41px;
+        border-radius: 2px;
+        font-weight: bold;
+        border: none;
+    }
+    .Register-info-card {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        height: 95%;
+        background-clip: border-box;
+        border-radius: 0px;
+        position: relative;
+        margin-bottom: 1.5rem;
+        width: 95%;
+        margin-right: 7px;
+        border: 1px solid gray !important;
+        border-radius: 20px;
+    } 
+    .register-remit {
+    margin-top: 8px;
+}
+.login-info {
+    float: left;
+    margin-left: 0.5pc;
+     margin-top: 15px
+
+}
+.re-login {
+    margin: auto;
+}
+.re-login-patron {
+    margin: auto;
+}
+.re-login-partner {
+    margin: auto;
+}
+
+}
+
+@media only screen and (min-width: 768px) and (max-width:992px){
+    
+    .login-remit {
+        margin-top: 0;
+        margin-left: 9px;
+        margin-right: 1.9pc;
+    }
+    .login-form-patron {
+        /* margin-top: 0; */
+        margin-left: 9px;
+        margin-right: 1.9pc;
+    }
+    .login-form-partner {
+        margin-top: 0;
+        margin-left: 9px;
+        margin-right: 1.9pc;
+    }
+    .card-title-register {
+        font-size: 16px !important;
+        color: #f01c09 !important;
+        line-height: 1.2;
+        font-weight: bold !important;
+        text-transform: uppercase;
+    }
+    .card-title-Login {
+        font-size: 17px !important;
+        color: #052462 !important;
+        line-height: 1.2;
+        font-weight: bold !important;
+        text-transform: uppercase;
+    }
+    .label-client {
+        color: white;
+        background-color: red;
+        width: 100%;
+        height: 51px;
+        border-radius: 3px;
+        margin-bottom: 1px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .label-login {
+        color: white;
+        background-color: red;
+        width: 100%;
+        height: 51px;
+        border-radius: 3px;
+        margin-bottom: 1px;
+        text-align: center;
+        font-size: 17px;
+    }
+    .Register-info-card {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        height: 95%;
+        background-clip: border-box;
+        border-radius: 0px;
+        position: relative;
+        margin-bottom: 1.5rem;
+        width: 75%;
+        margin-left: 7pc;
+        border: 1px solid gray !important;
+        border-radius: 20px;
+    }
+    .login-info {
+        float: left;
+        /* margin-right: 15px; */
+        margin-left: 0.5pc;
+        /* margin-top: 15px; */
+    }
+}
+
+@media only screen and (min-width: 993px) and (max-width:1279px) {
+    .card-header-register:first-child {
+        border-radius: 94% 6% 100% 0% / 0% 100% 0% 100% !important;
+        margin-right: 13%;
+        border: 1px solid #bdbdbd !important;
+    }
+    .card-header-login:first-child {
+        border-radius: 94% 6% 100% 0% / 0% 100% 0% 100% !important;
+        margin-right: 13%;
+        border: 1px solid #bdbdbd !important;
+    }
+    .label-client {
+        color: white;
+        background-color: red;
+        width: 100%;
+        height: 51px;
+        border-radius: 3px;
+        margin-bottom: 1px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .card-title-register {
+        font-size: 15px !important;
+        color: #f01c09 !important;
+        line-height: 1.2;
+        font-weight: bold !important;
+        text-transform: uppercase;
+    }
+    .button-forget {
+        color: white !important;
+        background-color: red;
+        border-color: red;
+        font-size: 13px;
+        width: 100%;
+        height: 41px;
+        border-radius: 2px;
+        font-weight: bold;
+        border: none;
+    }
+    .login-remit {
+        margin-top: 2.5pc;
+        margin-left: -1.5pc;
+        margin-right: 3pc;
+    }
+    .login-form-patron {
+        margin-top: 5pc;
+        margin-left: -1.5pc;
+        margin-right: 3pc;
+    }
+    .login-form-partner {
+        margin-top: 7.5pc;
+        margin-left: -1.5pc;
+        margin-right: 3pc;
+    }
+    /*********************25.01.2022********************/
+    .Register-info-card {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        height: 95%;
+        background-clip: border-box;
+        border-radius: 0px;
+        position: relative;
+        margin-bottom: 1.5rem;
+        width: 80%;
+    margin-left: 5pc;
+        border: 1px solid gray !important;
+        border-radius: 20px;
+    }
+    .click {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 18px;
+        color: red;
+        background: white;
+        border: none;
+        cursor: pointer;
+    }
+    .login-info {
+        float: left;
+        margin-left: -1.5pc;
+        margin-top: 15px;
+    }
+    .re-login {
+        margin: 65% 0% 0% 0%;
+    }
+    .re-login-patron {
+        margin: 65% 0% 0% 0%;
+    }
+    .re-login-partner {
+        margin: 76% 0% 0% 0%;
+    }
+}
+/****************************************Register Login Form Responsive ends********************************************/
+
+@media only screen and (min-width: 320px) and (max-width:767px){
+    .data-border{
+        height: 15pc;
+        /* width: 99%; */
+        margin-top: 15px;
+    }
+    .data-border-two{
+        width: 100%;
+        margin-left: 0;
+    }
+  
+}
+@media only screen and (min-width: 993px) and (max-width:1279px) {
+    .partner-form-name {
+        margin-left: 10px;
+        font-size: 11px;
+    }
+    .part-para {
+        display: none;
+    }
+    .partner-form-name-date {
+        margin-left: 10px;
+        font-size: 11px;
+    }
+    .partner-form-input {
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        padding: 4px;
+        margin-left: -10px;
+    }
+.partner-date-input {
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    padding: 10px;
+    width: 118%;
+}
+.partner-year-input {
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    padding: 10px;
+    width: 118%;
+}
+}
+
+
+*-----------------saravanan 25-01-2022 -------------------------*/
+
+@media only screen and (min-width:1026px) and (max-width:1044px) {
+
+.horizontalMenu>.horizontalMenu-list>li>a {
+    font-size: 10px !important;
+}
+
+}
+
+
+@media only screen and (min-width:1045px) and (max-width:1100px) {
+
+.horizontalMenu>.horizontalMenu-list>li>a {
+    font-size: 11px !important;
+}
+
+}
+
+@media only screen and (min-width:1024px) and (max-width:1025px) {
+
+.horizontalMenu>.horizontalMenu-list>li>a {
+    font-size: 11px !important;
+}
+
+}
+
+@media only screen and (min-width:992px) and (max-width:1023px) {
+
+.horizontalMenu>.horizontalMenu-list>li>a {
+    font-size: 10px !important;
+}
+
+}
+
+@media (max-width: 992px) {
+    .latest-rates-height.app-content.page-body {
+        margin-top: 1rem;
+    }
+
+    .list-content-one {
+        width: 33.33%;
+        margin: 0 6% 0 0;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .app-content.page-body {
+        margin-top: 5.2rem !important;
+    }
+}
+
+@media (min-width: 992px){
+.latest-rates-height.app-content.page-body {
+    margin-top: 1.0rem !important;
+}
+
+.horizontalMenu>.horizontalMenu-list {
+    display: flex !important;
+    
+}
+
+}
+

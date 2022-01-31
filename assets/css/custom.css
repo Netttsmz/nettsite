@@ -1,0 +1,1587 @@
+/*// Custom Style  //*/
+
+
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.bg-color1 {background-color: #3773f4;}
+.bg-color2 {background-color: #37f4d1;}
+.bg-color3 {background-color: #37f48a;}
+.bg-color4 {background-color: #646262;}
+.bg-color5 {background-color: #ff853b;}
+.bg-color6 {background-color: #b3b3b3;}
+.bg-color7 {background-color: #f1f1f1;}
+
+.blue {
+  background-color: #55ACEE;
+  color: white;
+}
+
+.red {
+  background-color: #fb1a02;
+  color: white;
+}
+
+.bg-blue {
+    background-color: #051c4f;
+}
+
+.bg-red {
+    background-color: #f00;
+    border: 1px solid #ce0101;
+    color:#ffffff;
+}
+
+.bg-light-gray {
+    background-color: #777777 !important;
+}
+.bg-dark-blue {
+    background-color: #051c4f;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.header-brand-img {
+    height: 3.3rem !important;
+    line-height: 2rem;
+    vertical-align: bottom;
+    margin-right: 0.5rem;
+    width: auto;
+}
+
+.header {
+    padding-top: 0.55rem;
+    padding-bottom: 0.35rem !important;
+    background: #fff;
+    border-bottom: 1px solid rgba(67, 87, 133, .2);
+}
+
+.latest-rates {
+    display: block;
+    width: 100%;
+    margin-top: 125px !important;
+}
+
+.horizontalMenu>.horizontalMenu-list {
+    text-align: left;
+    margin: 0 auto 0 auto;
+    padding: 0;
+    display: block;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+/*--------------22/12/2021 -------------------*/
+
+.horizontalMenu>.horizontalMenu-list>li>a {
+    display: block;
+    padding: 1rem 0.8rem 1rem;
+    text-decoration: none;
+    position: relative;
+    border-left: 1px solid rgba(67, 87, 133, .2);
+    margin: 0 3px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    
+}
+
+.scroll-left {
+    height: 36px;
+    width: auto !important;
+    overflow: hidden;
+    position: relative;
+    background: white;
+    color: blue;
+    margin-left: 90px;
+    margin-top: -44px;
+    border: 1px solid white;
+}
+
+.page-header {
+    display: -ms-flexbox;
+    display: inherit !important;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1.5rem 0 1.5rem;
+    /* -ms-flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 0;
+    border-radius: 7px;
+    position: relative;
+    min-height: 50px;
+}
+
+
+.li-mobile{
+    display: none !important;
+    
+}
+.li-mobile-partner{
+    display: none !important;
+    
+}
+
+   /*************************** 23/12/2021 *********************/
+
+   .footer-disclaimer{
+    margin-top: -29px !important;
+    margin-right: 53px !important;
+   }
+   .footer a:not(.btn) {
+     color: black !important; 
+    font-weight: 400;
+   }
+    #back-to-top:hover {
+    background: #fff !important;
+    color: #ff4d16 !important;
+    border: 2px solid #ff4d16 !important;
+    }
+    #back-to-top {
+        background: #ff4d16 !important;
+        color: #fff;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 99;
+        display: none;
+        text-align: center;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -o-border-radius: 2px;
+        z-index: 10000;
+        height: 50px;
+        width: 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        transition: background-color 0.1s linear;
+        -moz-transition: background-color 0.1s linear;
+        -webkit-transition: background-color 0.1s linear;
+        -o-transition: background-color 0.1s linear;
+    }
+    .nav-icon-header{
+        margin-left: auto !important;
+        font-size: 24px;
+        margin-right: 24px;
+        
+    }
+    .nav-icon-home{
+        font-size: 30px;
+        margin-top: -4px;
+        margin-left: -19px;
+    }
+    .fa.fa-arrow-left{
+        color: #717070;
+    }
+    .fa.fa-arrow-right{
+        color: #717070;
+    }
+    .fa.fa-home{
+        color: #f01c09;
+    }
+    
+    .card-select{
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: 0px;
+        position: relative;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        border: 1px solid #d4d4d4 !important;
+    }
+    .card-login {
+        position: relative;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        /* margin-left: -20px;
+        margin-top: 23px; */
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border-radius: 0px;
+        position: relative;
+        margin-bottom: 1.5rem;
+        width: 100%;
+        border: 1px solid #bdbdbd !important;
+    }
+    
+    
+    .row-client-form{
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -0.75rem;
+        margin-left: -0.75rem;
+    }
+    /***************** 27/12/2021 ************************/
+    /******************************** CASH EXCHANGE PAGE CSS STARTS*********************************/
+    .info-login{
+        font-size: 10px;
+    }
+    .register-remit{
+        margin-top: 10px;
+    }
+    .login-remit{
+        margin-top: 1px;
+    }
+    .ml-auto-partner{
+        float: right !important;
+    }
+    .table th, .text-wrap table th, .text-wrap table td {
+        padding: 0.75rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+        /* border: 1px solid #dee2e6; commented on sytle.css*/
+        border-right: 1px solid #dee2e6 !important;
+    }
+    .td-col{
+        border-right: 1px solid #dee2e6;
+    }
+   .cash-header-blue{
+       color: rgb(0,112,192) !important;
+       font-weight:bolder !important;
+
+   } 
+   .cash-header-red{
+       color: red !important;
+       font-weight: bolder !important;
+ 
+   } 
+   .cash-header-black{
+       color:black !important;
+       font-weight: normal;
+   }  
+.cash-red{
+    color: red !important;
+}
+.arrow-down{
+    font-size: 16px;
+    color: red;
+    /* margin-left: 34px; */
+}
+.arrow-up{
+    font-size: 16px;
+    color: #002060;
+}
+
+#base-currency{
+    padding: 4px;
+    margin-top: 5px
+}
+.base-label{
+    color: black;
+    font-weight: bolder;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.first-td{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.sec-td{
+    background-color: #002060;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+/******************************** CASH EXCHANGE PAGE CSS ENDS*********************************/
+/* .header-para{
+    margin: 0;
+}
+.header-para1{
+    margin: 0;
+}
+.header-para2{
+    margin: 0;
+} */
+/******************************** REMITENCE PAGE CSS STARTS*********************************/
+/************************* 28/12/2021 ******************************/
+.step1{
+    text-align: left;
+    margin-top: 10px;
+    color: red;
+    font-weight: bold;
+    margin-left: 8pc;
+}
+.select-side{
+    text-align: left;
+    font-weight: bold;
+    margin-left: 1pc;
+}
+.rates{
+    text-align: left;
+    margin-left: 9px;
+    font-size: 15px;
+}
+.viewrates{
+    text-align: left;
+    margin-left: 21px;
+    font-size: 14px;
+}
+.agentbutton{
+    /* background-color: rgb(0, 36, 96);
+    height: 140px; */
+    /* margin-left: 508px; */
+    /* width: 167px; */
+    /* padding: 31px; */
+    /* padding-bottom: 89px; */
+    /* margin-bottom: 278px; */
+    margin-top: -125px;
+    /* border: 2px solid grey*/
+}
+.submit-agent{
+    margin: 0;
+}
+.card-agent {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    height: 140px;
+    background-clip: border-box;
+    border-radius: 0px;
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 91%;
+    border: 1px solid #d4d4d4 !important;
+}
+.clickhere{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    width: 36%;
+    margin-left: 25.3pc;
+    border: 1px;
+    background-color: rgb(0, 36, 96);
+    height: 138px;
+    /* margin-bottom: 53px; */
+    /* padding-top: 9px; */
+    font-size: 18px;
+    
+}
+.head-widget{
+    background-color: #ff5f02;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.sendheading{
+    color: white;
+    /* margin-top: 0px; */
+    font-weight: bold;
+    font-size: 20px;
+    text-align: right;
+    text-align: 3px;
+    margin-right: 4px;
+    /* margin-left: 20.8pc;*/
+}
+.rateheading{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 4px;
+}
+.input-select-agent{
+        margin-bottom: 5px;
+}
+/*********************** label for form ********************************/
+.select-agent-label1{
+    font-size: 12px;
+    margin-left: 5px;
+}
+.select-agent-para1{
+    font-size: 9px;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.select-agent-label-base{
+    font-size: 10px;
+    margin-left: 5px;
+}
+.select-agent-label-sent-con{
+    font-size: 12px;
+    margin-left: 5px;
+    color: #3773f4;
+    font-weight: bold;
+}
+.select-agent-label-crrate{
+    font-size: 12px;
+    margin-left: 5px;
+    color: black;
+    font-weight: bold;
+}
+.select-agent-label-recd{
+    font-size: 10px;
+    margin-left: 5px;
+    color: red;
+    font-weight: bold;
+}
+.select-agent-para-service{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    
+    margin-bottom: 3px;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.select-agent-para-invoice{
+    font-size: 10px;
+    color: red;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.select-agent-idr{
+    font-size: 15px;
+    color: #002060;
+    font-weight: bold;
+    margin-top: -5px;
+    margin-left: 5px;
+}
+.select-agent-input1{
+   width: 95%;
+    margin-left: 3px;  
+}
+.select-agent-input-crrrate{
+    width: 95%;
+    margin-left: 3px;  
+}
+.select-agent-input-recd{
+    width: 95%;
+    margin-left: 3px;  
+}
+.select-agent-input-scharges{
+    width: 95%;
+    margin-left: 3px;  
+}
+.select-agent-input-basecrr{
+    width: 95%;
+    margin-left: 3px;  
+}
+.select-agent-input-bscharge{
+    width: 95%;
+    margin-left: 3px;  
+}
+.select-agent-input-ttl{
+    width: 95%;
+    margin-left: 3px;  
+}
+.select-agent-input-idr{
+    width: 95%;
+    margin-left: 3px;  
+}
+
+.line-div-SCA{
+    margin: 0px;
+    margin-top: 14px;
+    margin-left: 41px;
+    margin-right: 18px;
+    margin-bottom: 7px;
+    height: 6px;
+    border-width: 0;
+    background-color: gray;
+}
+
+/*********************** label for form ENDS ********************************/
+.para-text{
+    margin-left: 10px;
+}
+.send-btn-agent{
+    background-color: rgb(9, 32, 103);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 19px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    /* margin-right: -2px; */
+    width: 93%;
+    font-size: 20px;
+    height: inherit;
+    padding: 0px;
+    font-weight: bold;
+}
+/* 
+.selectagent{
+    margin-top: -15px;
+} */
+
+
+/************************************ menu changes top small changes and put importent *************************/
+.hor-menu.horizontal-main {
+    margin-top:68px !important;
+}
+/************************************ menu changes top small changes and put importent *************************/
+
+.sub-icon-send{
+    background-color: #ff5f02 !important;
+    color: white !important;
+}
+
+/*************************************** 29/12/2021 *******************************************/
+
+.mailicon{
+    color: red;
+    margin-left: 10px;
+    margin-top: -1px;
+}
+.menu{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(67, 87, 133, .2);
+  /* border: 1px solid rgba(67, 87, 133, .2); */
+  background-color: white;
+}
+.list-sec-menu{
+    display: inline-block;
+    color: black;
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+   
+  }
+ 
+  .select-agent-input-country{
+    
+    padding: 3px;
+    margin-top: 4px;
+    width: 95%;
+    margin-left: 3px;
+  }
+  .select-agent-input-country-two{
+    
+    padding: 3px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    width: 95%;
+    margin-left: 3px;
+  }
+  /******************************** REMITENCE PAGE CSS ENDS*********************************/
+  /********************************************* 30/12/2021 *************************************/
+
+  /******************************** REMITTANCE SELECT AGENT PAGE CSS STARTS*********************************/
+  .card-agent-country{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #ebebeb;
+    background-clip: border-box;
+    border-radius: 0px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border: 1px solid #d4d4d4 !important;
+  }
+  .agent-country{
+      
+        
+      background-color: #ebebeb;
+      /* padding-top: 10px;
+      padding-bottom: 8px; */
+      border: 1px solid #d4d4d4 !important;
+  }
+  .post-code{
+   
+    font-size: 13px;
+    margin-top: 9px;
+    font-weight: bold;
+  }
+
+  .your-country{
+    margin-left: 15px;
+    font-size: 11px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .select-country{
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 90%;
+    margin-left: 15px;
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+  }
+  .post-code-input-box{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 90%;
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+    
+  }
+  .search-btn{
+    border: none;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: 0px;
+  }
+
+  /********************************** 3/01/2022 ********************************/
+
+  .search-icon{
+      font-size: 17px;
+  }
+ 
+      
+  .agent-table{
+    margin-top: 10px;
+    /* border: 1px solid; */
+    border: 1px solid #d4d4d4;
+   
+  }
+  .col-1-remit{
+    border-left: 1px solid #d4d4d4;
+  }
+  .agent-code{
+    background-color: #ebebeb;
+    border: 1px solid red !important;
+    
+    margin-top: 10px;
+  }
+  .agent-code-selection{
+    margin-left: 2px;
+    font-size: 11px;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  .agent-code-input-box{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 90%;
+    border: none;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+  }
+  .agent-code-table{
+    /* margin-top: 10px; */
+    /* border: 1px solid; */
+    border: 1px solid #d4d4d4; 
+  }
+  .table-header-info{
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid #d4d4d4;
+    padding: 1px;
+    border-bottom: none;
+  }
+  .table-label{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .table-header-select-info{
+    text-align: center;
+    margin-top: 15px;
+    background-color: red;
+    color: white;
+    border: 1px solid #d4d4d4;
+    padding: 1px;
+    border-bottom: none;
+  }
+  .agent-code-your-select-table{
+      border: 1px solid red;
+  }
+
+  .checkbox{
+    margin-right: 6px;
+  }
+  /******************************** REMITTANCE SELECT AGENT PAGE CSS ENDS*********************************/
+
+  /******************************** REMITTANCE SEND COUNTRY PAGE CSS STARTS*********************************/
+  .send-country {
+    background-color: #ebebeb;
+    border: 1px solid #d4d4d4 !important;
+}
+.send-select-country {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 95%;
+    margin-left: 15px;
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+.send-select-country-two {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    width: 95%;
+    margin-left: 15px;
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    border-right: 1px solid #d4d4d4;
+}
+.send-your-country {
+    margin-left: 11px;
+    font-size: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.send-country-two {
+    font-size: 14px;
+    /* word-spacing: 3px; */
+    margin-top: 9px;
+    font-weight: bold;
+}
+.heading-send-country{
+    color: red;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+}
+.sending-btn{
+    margin-top: 10px;
+    float: right;
+    width: 27%;
+    font-size: 16px;
+    color: #051c4f;
+    font-weight: bold;
+    border: 1px solid #d4d4d4;
+}
+/******************************** RAMITTANCE SEND COUNTRY PAGE CSS ENDS*********************************/
+
+
+  /*saran css 30-12-22021 ---------------------------------------------------------------*/
+
+.partner-reg-header {
+    background: #ebebeb !important;
+    padding: 0.5rem 1.5rem;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 0rem !important;
+    -ms-flex-align: center;
+    align-items: center;
+} 
+
+.partner-reg-header:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top: 40px solid white;
+    border-left: 40px solid #ebebeb;
+    width: 0;
+    margin-right: 10px;
+}
+
+/*End style -------------------------------------------------------------------------*/
+
+.agent-selection-line{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/***************************************PARTNER MARK UP RATE PAGE CSS STARTS*****************************/
+.sub-head {
+    font-size: 10px;
+    color: red;
+}
+.partnerrateheader {
+    background-color: rgb(238, 238, 238);
+    width: 10%;
+}
+.heading-partner-mark-up{
+    font-size: 15px;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+.partner-send-button{
+    margin-top: 10px;
+    float: right;
+    width: 27%;
+    font-size: 16px;
+    color: #051c4f;
+    font-weight: bold;
+    border: 1px solid #d4d4d4;   
+}
+
+
+/***************************************PARTNER MARK UP RATE PAGE CSS ENDS*****************************/
+
+/***************************************PARTNER BUSINESS MILESTONE PAGE CSS STARTS*****************************/
+.heading-partner-volume-milestone{
+    color: black;
+    font-style: initial;
+    font-size: 16px;
+}
+.table-two, .text-wrap table {
+    width: 100%;
+    max-width: 100%;
+    margin-left: 5pc;
+}
+.table-two td {
+    
+    vertical-align: top;
+}
+.card-table-two {
+    /* margin-left: 105px;
+    margin-bottom: 38px; */
+    border: 1px solid lightgray;
+    }
+    
+    .card-table-two tr:first-child td, .card-table-two tr:first-child th {
+        border-top: 0;
+    }
+    
+    .card-table-two tr:nth-child() td, .card-table-tw tr:nth-child() tr {
+        margin-left: 10px;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    
+    .card-table-two tr:first-child {
+        border-top: 1px solid lightgray;
+        padding-top: 15px;
+        border-top: 0;
+        padding-left: 1.5rem;
+        text-align: center;
+    }
+    
+    .card-table-two tr:nth-child(2) {
+        border-top: 1px solid lightgray;
+        padding-top: 15px;
+        border-top: 0;
+        padding-left: 1.5rem;
+        text-align: center;
+    }
+    
+    .card-table-two tr:nth-child(3) {
+        border-top: 1px solid lightgray;
+        padding-top: 15px;
+        border-top: 0;
+        padding-left: 1.5rem;
+        text-align: center;
+    }
+    
+   
+    
+    .table-one, .text-wrap table {
+        width: 80%;
+        border-top: 1px solid #d4d4d4;
+        border-left: 1px solid #d4d4d4;
+        background-color: rgb(238, 238, 238);
+    }
+    .table-one {
+        border-collapse: collapse;
+    }
+    .partner-table{
+        margin-top: 5px;
+    }
+    
+    .card-table-one {
+        /* margin-top: 200px; */
+        /* margin-bottom: 38px; */
+        border: 1px solid lightgray;
+    }
+    /* partnerpage table */
+    
+    
+    .card-table-one tr:first-child td, .card-table-one tr:first-child th {
+        border-top: 0;
+        padding-left: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 3px;
+        padding-left: 10px;
+    }
+    
+    .card-table-one tr:nth-child() td, .card-table-one tr:nth-child() tr {
+        margin-left: 10px;
+        margin-top: 10px; padding-left: 1.5rem;
+        padding-top: 10px;
+    }
+    
+    .card-table-one tr:first-child {
+        border-top: 1px solid lightgray;
+        padding-top: 15px;
+        border-top: 0;
+        padding-left: 1.5rem;
+        text-align: center;
+    }
+    
+    .card-body + .card-table-one {
+    border-top: 1px solid rgba(67, 87, 133, .2);
+    }
+
+.table-vcenter4 td, .table-vcenter4 th {
+    padding-top: 15px;
+    vertical-align: middle;
+    border: 1px solid lightgray;
+}
+.table-vcenter-two td, .table-vcenter4 th {
+    
+    vertical-align: middle;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid lightgray;
+}
+.partner-col{
+    border-left: 1px solid #d4d4d4;
+}
+/***************************************PARTNER BUSINESS MILESTONE PAGE CSS ENDS*****************************/
+
+/*-------------------------------------------06-01-2022------------------------------------------*/
+
+/*****************************************PARTNER CHART PAGE CSS STARTS*****************************************/
+.graph {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 4px;
+    position: relative;
+    width: 80%;
+    height: 95%;
+    border: 1px solid darkgray;
+}
+.graph-enqi {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 4px;
+    position: relative;
+    width: 80%;
+    height: 95%;
+    border: 1px solid darkgray;
+}
+.graph-password {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 4px;
+    position: relative;
+    width: 80%;
+    height: 95%;
+    border: 1px solid darkgray;
+}
+
+.data-box {
+    font-size: 11px;
+    margin-left: 15px;
+    margin-top: -3px;
+    height: 14%;
+    background-color: white;
+    width: 50%;
+} 
+.data-border{
+    border: 1px solid gray;
+    height: 94%;
+    border-radius: 10px;
+}
+.data-send{
+    background-color: white;
+    width: 50%;
+    margin-left: 10px;
+    margin-top: -2px;
+    font-size: 13px;
+}
+.data-send-two{
+    background-color: white;
+    width: 60%;
+    margin-left: 10px;
+    margin-top: -2px;
+    font-size: 12px;
+}
+.data-border-two{
+    border: 1px solid gray;
+    /* height: 133%; */
+    margin-top: 15px;
+    height: 14pc;
+    width: 100%;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+/*****************************************PARTNER CHART PAGE CSS ENDS*****************************************/
+
+.grid-system{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60% !important;
+    height: 400px !important;
+    margin-bottom: 5pc;
+}
+
+/*_______________________________Register page Css___________________________________________________ ________*/
+.icon-form{
+    font-size: 10px;
+}
+
+.input-group {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+    margin-bottom:2px !important;
+}
+.input-group-text {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    margin-bottom: 0;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: white !important;
+    border: 1px solid rgba(67, 87, 133, .2);
+        border-right-color: rgba(67, 87, 133, 0.2);
+        border-right-style: solid;
+        border-right-width: 1px;
+    border-radius: 3px;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        
+}
+.errorMsg{
+    color: red;
+    font-size: 11px;
+    margin-top: -5px;
+    margin-left: 15px;
+}
+.card-form {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0px;
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 95%;
+    border: 1px solid #bdbdbd !important;
+    margin-left: 9px;
+}
+.login-remit{
+    margin-top: 2.6pc;
+    margin-left: -1.8pc;
+    margin-right: 3pc;
+}
+.login-form-patron{
+    margin-top: 5.1pc;
+    margin-left: -1.8pc;
+    margin-right: 3pc;
+}
+.login-form-partner{
+    margin-top: 7.6pc;
+    margin-left: -1.8pc;
+    margin-right: 3pc;
+}
+.card-body-form + .card-table-two {
+    border-top: 1px solid rgba(67, 87, 133, .2);
+    }
+    .card-body-form {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 0;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        padding-left: 14px;
+        padding-right: 14px;
+        position: relative;
+        background-color: #ebebeb !important;
+    }
+    .card-body-login {
+        -ms-flex: 1 1 auto;
+        flex: 1 1 auto;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+        position: relative;
+        background-color: #ebebeb !important;
+    }
+   
+    .card-header-register {
+        background: #ebebeb !important;
+        padding: 0.5rem 1.5rem;
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 0rem !important;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .card-header-login {
+        background: #ebebeb !important;
+        padding: 0.5rem 1.5rem;
+        display: -ms-flexbox;
+        display: flex;
+        min-height: 0rem !important;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+    .card-title-register{
+        font-size: 17px !important;
+        color: #f01c09 !important;
+        line-height: 1.2;
+        font-weight: bold !important;
+        text-transform: uppercase;  
+    }
+    .card-title-Login{
+        font-size: 17px !important;
+        color: #052462 !important;
+        line-height: 1.2;
+        font-weight: bold !important;
+        text-transform: uppercase;
+    }
+    .card-title-Login:only-child {
+        margin-bottom: 0 !important;
+    }
+    .card-title-register:only-child {
+        margin-bottom: 0 !important;
+    }
+    .button-client{
+    color: white !important;
+    background-color: #002060;
+    border-color: #002060;
+    font-size: 20px;
+    width: 100%;
+    height: 41px;
+    border-radius: 2px;
+    font-weight: bold;
+
+    }
+    .button-forget{
+        color: white !important;
+        background-color: red;
+        border-color: red;
+        font-size: 16px;
+        width: 100%;
+        height: 41px;
+        border-radius: 2px;
+        font-weight: bold;
+        border: none;
+    
+        }
+    .label-client{
+    color: white;
+    background-color: red;
+    width: 100%;
+    height: 51px;
+    border-radius: 3px;
+    margin-bottom: 1px;
+    text-align: center;
+    font-size: 17px;
+    }
+    .card-header-register {
+        padding: 0.4rem 1.5rem !important;
+        margin-bottom: -2px;
+        border-bottom: 1px solid #d0d0d0 !important;
+        margin-left: 9px;
+    }
+    .card-header-login {
+        padding: 0.4rem 1.5rem !important;
+        margin-bottom: -2px;
+        border-bottom: 1px solid #d0d0d0 !important;
+        /* margin-left: 9px; */
+    }
+    .form-group {
+        margin-bottom: 3px !important;
+    }
+    
+    .card-header-register:first-child {
+        border-radius: 94% 6% 100% 0% / 0% 100% 0% 100% !important;
+        margin-right: 92px;
+        border: 1px solid #bdbdbd !important;
+    }
+    .card-header-login:first-child {
+        border-radius: 94% 6% 100% 0% / 0% 100% 0% 100% !important;
+        margin-right: 92px;
+        border: 1px solid #bdbdbd !important;
+    }
+    .label-login {
+        /* color: white; */
+        background-color: red;
+        /* width: 100%; */
+        height: 54px;
+        border-radius: 3px;
+        margin-bottom: 2px;
+        /* text-align: center; */
+        /* font-size: 17px; */
+    }
+    .log-heading{
+        text-align: center;
+        font-size: 16px;
+        padding-top: 10px;
+        color: white;
+        /* padding-bottom: 14px; */
+    }
+    .employee-btn{
+        background-color: orangered;
+        padding: 9px;
+        border-radius: 2px;
+        margin: 4px;
+    }
+    .employee-btn-two{
+        background-color: orangered;
+        padding: 9px;
+        border-radius: 2px;
+        margin: 4px;
+    }
+    /**************************PARTNER FORM PAGE CSS STARTS*************************************/
+    .form-name{
+        border: 1px solid #d4d4d4;
+        width: 100%;
+    
+    }
+    .form-border{
+        border: 1px solid #d4d4d4;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .form-border-password{
+        border: 1px solid #d4d4d4;
+        width: 100%;
+        margin-top: 2pc;
+    }
+        .partner-form-name{
+        margin-left: 10px;
+
+    }
+    .partner-form-input{
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        padding: 4px;
+    }
+    .partner-regn-input{
+        border: none;
+        border-left: 1px solid #d4d4d4;
+        padding: 10px;
+    }
+    .panel-reg{
+        text-align: center;
+        font-weight: bold;
+    }  
+
+.file > input[type='file'] {
+  display: none
+}
+
+.file > label {
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+  outline: 0;
+  user-select: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.part-para{
+    font-size: 11px;
+    margin-left: 8px;
+    margin-right: 4px;
+    /* text-align: center; */
+    margin-top: 10px;
+}
+.icon-part{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.partner-form-name-date{
+    margin-left: 10px;
+}
+.partner-day-input{
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    padding: 10px;
+    width: 100%;
+}
+.partner-date-input{
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    padding: 10px;
+    width: 100%;
+}
+.partner-year-input{
+    border: none;
+    border-left: 1px solid #d4d4d4;
+    padding: 10px;
+    width: 100%;
+}
+.heading-co-one{
+    margin-top: 15px;
+}
+
+.btn-part{
+    margin-top: 15px;
+    width: 100%;
+    background-color: #002060;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.btn-part-two{
+    width: 40%;
+    height: 50px;
+    background-color: #002060;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14.6cm;
+}
+    /**************************PARTNER FORM PAGE CSS ENDS*************************************/
+
+/*&^&^&^&^&^&^&^************************25/01/2022 REGISTER FORM UPDATES********************^&^&^&^&^&^&^&^&^&^&^*/
+
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.9375rem;
+    line-height: 1.6 !important;
+    color: #6b6f80;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(67, 87, 133, .2);
+    border-radius: 3px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.Register-info-card{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    height: 95%;
+    background-clip: border-box;
+    border-radius: 0px;
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 75%;
+    margin: 1% auto;
+    float: right;
+    border: 1px solid #c5c1c1 !important;
+    border-radius: 20px;
+}
+.click{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    color: red;
+    border: none;
+    cursor: pointer;
+}
+.Reg-after{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #051c4f;
+}
+.panel{
+    text-align: center;
+    font-weight: bold;
+}
+.re-login{
+    margin: 56% 0% 0% 0%;
+}
+.re-login-patron{
+    margin: 60% 0% 0% 0%;  
+}
+.re-login-partner{
+    margin: 67% 0% 0% 0%;  
+}
+
+.card-form-border{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: 0px;
+    position: relative;
+    margin-bottom: 1.5rem;
+    width: 100%;
+    border: 1px solid #d1cece !important;  
+    padding-top: 15px; 
+}
+    .page-head-title {
+        margin-bottom: 15px;
+        border-bottom: 1px solid #d1cece;
+        background-color: #ebebeb;
+        padding-top: 10px;
+        margin-top: -15px;
+    }
+.page-heading{
+    margin-left: 5px;
+    font-size: 17px;
+    color: #f01c09;
+    float: right;
+    margin-right: 10px;
+    /* text-align: right; */
+    font-weight: bold;
+}
+.icon1{
+    font-size: 16px !important;
+}
+.icon2{
+    font-size: 17px !important;
+}
+.icon3{
+    font-size: 16px !important;
+    margin-left: 5px;
+}
+.icon4{
+    font-size: 16px !important;
+    margin-left: 3.5px;
+}
+.icon5{
+    font-size: 16px !important;
+    margin-left: 4.8px;
+}
+.icon6{
+    font-size: 16px !important;
+    margin-left: 2.2px;
+}
+.icon7{
+    font-size: 16px !important;
+    margin-left: 2.2px;
+}
+.icon8{
+    font-size: 16px !important;
+    margin-left: 2.2px;
+}
+.login-info{
+    float: left;
+    margin-left: -2pc;
+    margin-top: 15px;
+}
+.loginfo{
+    /* font-size: 18px; */
+    font-weight: 500;
+    word-spacing: 3px;
+}
+.wrd-login{
+    font-weight: bold;
+}
+.top-header-btn{
+  
+    background-color: orangered;
+    margin-left: 6px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.btns-left {
+    margin-left: auto !important;
+    margin-top: 10px;
+}
+.cc-div{
+    width: 96%;
+    margin: 1% auto;
+}
+.row-cashex td{
+    padding: 0.30rem;
+}
+.cc-country-select-box{
+    background-color: #d5cece;
+    padding: 2px;
+    border: 1px solid #c7c3c3;
+    width: 98%;
+    margin: 0 auto;
+}
+
+/*************************27.1.2022--------Yousuf******/
+.rm-agent-select-box {
+    padding: 2px;;
+    width: 98%;
+    margin: 0 auto;
+}
+.nav-icon-partner{
+	margin: 5px;
+	padding: 12px;
+	text-align: center;
+	height: 2.5rem;
+	position: relative;
+	border:1px solid rgba(67, 87, 133, .2);
+	border-radius:3px;
+	background-color: rgb(255, 77, 22) !important;
+	
+}
+.ml-btn{
+    margin-left: auto !important;
+    margin-top: 13px !important;
+}
+
+/* input error field */
+
+.error-field {
+    color: red;
+    font-size: 12px;
+    margin: 0% auto;
+    display: block;
+    width: 90%;
+    text-transform: capitalize;
+}
